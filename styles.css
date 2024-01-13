@@ -81,6 +81,10 @@ img {
   height: auto;
 }
 
+#logoImage {
+  z-index: 1; /* Set a specific z-index value */
+}
+
 section h2 {
   font-size: 24px;
   font-weight: bold;
