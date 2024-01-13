@@ -55,7 +55,7 @@ nav {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #333;
+  background-color: #000000;
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
@@ -88,4 +88,8 @@ section h2 {
   text-align: center;
   color: white; /* Set text color to white */
   font-family: 'Open Sans', sans-serif; /* Example custom font */
+}
+
+p {
+  color: white;
 }
