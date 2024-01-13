@@ -8,6 +8,7 @@
     height: auto;
   }
 </style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body style="background:#121212">
   <nav>
@@ -24,5 +25,14 @@
   </ul>
 </nav>
 <img src="images/P4G-logo.png" alt="Product4Good logo" >
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('.menu');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
+  });
+</script>
 </body>
 </html>
