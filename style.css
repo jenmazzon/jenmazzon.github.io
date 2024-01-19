@@ -1,4 +1,4 @@
-body {
+ion body {
   background: #121212;
 }
 
@@ -32,7 +32,7 @@ section h2 {
   font-family: 'Open Sans', sans-serif; /* Example custom font */
 }
 
-p {
+section p {
   font-size: 12px;
   text-align: center;
   color: white;
