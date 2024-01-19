@@ -19,7 +19,9 @@ img {
   z-index: 10; /* Set a specific z-index value */
 }
 
-
+#about-product4good {
+  z-index: 10; /* Set a specific z-index value */
+}
 
 section h2 {
   font-size: 24px;
