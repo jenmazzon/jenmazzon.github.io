@@ -11,9 +11,11 @@ img {
   z-index: 1; /* Set a specific z-index value */
 }
 
-#3things {
+#your-career-in-tech {
   z-index: 10; /* Set a specific z-index value */
 }
+
+
 
 section h2 {
   font-size: 24px;
