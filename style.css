@@ -1,0 +1,25 @@
+body {
+  background-color: #f0f8ff; 
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#logoImage {
+  z-index: 1; /* Set a specific z-index value */
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  color: white; /* Set text color to white */
+  font-family: 'Open Sans', sans-serif; /* Example custom font */
+}
+
+p {
+  color: white;
+}
