@@ -2,11 +2,6 @@ body {
   background: #121212;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 .hero-image {
   position: fixed; /* Anchors the container to the top */
   top: 0;
@@ -15,6 +10,11 @@ img {
   z-index: 1; /* Ensures image stays behind text */
 }
 
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintains aspect ratio */
+}
 
 #your-career-in-tech {
   z-index: 10; /* Set a specific z-index value */
