@@ -17,8 +17,8 @@ body {
 }
 
 main {
-  padding-top: 500px; /* Adds padding to start content below image */
-  z-index: 100; /* Ensures image stays behind text */
+  padding-top: 600px; /* Adds padding to start content below image */
+  z-index: 0; /* Ensures image stays behind text */
 }
 
 section h2 {
