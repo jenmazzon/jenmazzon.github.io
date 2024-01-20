@@ -16,16 +16,8 @@ body {
   object-fit: cover; /* Maintains aspect ratio */
 }
 
-#your-career-in-tech {
-  z-index: 10; /* Set a specific z-index value */
-}
-
-#the-quest-for-social-impact {
-  z-index: 10; /* Set a specific z-index value */
-}
-
-#about-product4good {
-  z-index: 10; /* Set a specific z-index value */
+.content {
+  z-index: 100; /* Ensures image stays behind text */
 }
 
 section h2 {
