@@ -5,8 +5,9 @@ body {
 .hero-image {
   position: fixed; /* Anchors the container to the top */
   top: 10;
+  left: 50%; /* Move to 50% of viewport width */
+  transform: translateX(-50%); /* Translate horizontally by half its width */
   width: 96%;
-  align: center;
   z-index: 1; /* Ensures image stays behind text */
 }
 
