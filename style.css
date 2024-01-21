@@ -34,6 +34,8 @@ section h2 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 50px;
   text-align: center;
   color: white; 
@@ -45,4 +47,6 @@ section p {
   text-align: center;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
 }
