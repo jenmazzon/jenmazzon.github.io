@@ -25,6 +25,7 @@ main {
 
 .content {
   width: 80%;
+  padding-left: 10%;
   background-color: #121212;
   position: relative;
   z-index: 2; /* Ensures image stays behind text */
