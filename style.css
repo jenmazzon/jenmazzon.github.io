@@ -4,8 +4,7 @@ body {
 
 .hero-image {
   position: fixed; /* Anchors the container to the top */
-  top: 0;
-  left: 0;
+  top: 10;
   width: 96%;
   align: center;
   z-index: 1; /* Ensures image stays behind text */
