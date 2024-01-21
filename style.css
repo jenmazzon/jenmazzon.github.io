@@ -12,6 +12,7 @@ body {
 
 .hero-image img {
   width: 100%;
+  align: center;
   height: auto;
   object-fit: cover; /* Maintains aspect ratio */
 }
