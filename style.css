@@ -6,7 +6,7 @@ body {
   position: fixed; /* Anchors the container to the top */
   top: 10;
   margin: 0 auto;
-  width: 96%;
+  width: 100%;
   z-index: 1; /* Ensures image stays behind text */
 }
 
