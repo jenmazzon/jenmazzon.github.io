@@ -1,5 +1,5 @@
 body {
-  background: #121212;
+  background: #020e27;
 }
 
 .hero-image {
@@ -39,15 +39,15 @@ section h2 {
   padding-right: 10%;
   padding-top: 50px;
   text-align: center;
-  color: white; 
-  font-family: 'Open Sans', sans-serif; /* Example custom font */
+  color: #92fe9d; 
+  font-family: 'Afterglow-Regular', sans-serif; /* Example custom font */
 }
 
 section p {
   font-size: 12px;
   text-align: center;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'SourceSans', sans-serif;
   padding-left: 10%;
   padding-right: 10%;
 }
