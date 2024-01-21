@@ -19,7 +19,6 @@ body {
 main {
   background: #121212;
   padding-top: 600px; /* Adds padding to start content below image */
-  z-index: 0; /* Ensures image stays behind text */
 }
 
 section h2 {
