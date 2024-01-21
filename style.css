@@ -11,13 +11,6 @@ body {
   z-index: 1; /* Ensures image stays behind text */
 }
 
-.hero-image img {
-  width: 100%;
-  align: center;
-  height: auto;
-  object-fit: cover; /* Maintains aspect ratio */
-}
-
 main {
   background-color: #121212;
   padding-top: 700px; 
