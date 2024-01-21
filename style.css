@@ -22,6 +22,7 @@ main {
 }
 
 .content {
+  background-color: #121212;
   position: relative;
   z-index: 2; /* Ensures image stays behind text */
 }
