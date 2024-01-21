@@ -18,7 +18,8 @@ body {
 
 main {
   background-color: #121212;
-  padding-top: 700px; /* Adds padding to start content below image */
+  padding-top: 700px; 
+  padding-bottom: 700px;
 }
 
 .content {
