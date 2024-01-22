@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'SourceSans';
+  src: url('/fonts/SourceSans3-regular.ttf');
+  font-weight: normal
+}
+
 body {
   background: #020e27;
+  font-family: 'SourceSans', sans-serif;
 }
 
 .hero-image {
