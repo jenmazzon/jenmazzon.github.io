@@ -26,22 +26,6 @@ main {
   padding-top: 600px; 
 }
 
-/* Mobile padding (screen width less than 768px) */
-@media only screen and (max-width: 768px) {
-  main {
-    background-color: #020e27;
-    padding-top: 50px; 
-  }
-  .content {
-    width: 90%;
-    margin: 0 auto;
-    background-color: #030d25;
-    opacity: 0.9; 
-    position: relative;
-    z-index: 2; /* Ensures image stays behind text */
-  }
-}
-
 img {
   width: 100%;
 }
@@ -55,25 +39,48 @@ img {
   z-index: 2; /* Ensures image stays behind text */
 }
 
-section h2 {
-  font-size: 60px;
-  font-weight: normal;
-  margin-top: 20px;
-  padding-top: 50px;
-  text-align: center;
-  color: #00c9ff; 
-  font-family: 'Afterglow-Regular', serif;
+@media only screen and (min-width: 768px) {  /* Target screens wider than 768px */
+  section h2 {
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: #00c9ff; 
+    font-family: 'Afterglow-Regular', serif;
+  }
+  
+  section p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    font-family: 'SourceSans', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
-section p {
-  font-size: 24px;
-  text-align: center;
-  line-height: 2;
-  color: white;
-  font-family: 'SourceSans', sans-serif;
-  padding-left: 10%;
-  padding-right: 10%;
+@media only screen and (max-width: 768px) {  /* Target screens 768px or narrower */
+  section h2 {
+      font-size: 72px;
+      font-weight: normal;
+      margin-top: 20px;
+      padding-top: 50px;
+      text-align: center;
+      color: #00c9ff; 
+      font-family: 'Afterglow-Regular', serif;
+    }
+    
+    section p {
+      font-size: 36px;
+      text-align: center;
+      line-height: 2;
+      color: white;
+      font-family: 'SourceSans', sans-serif;
+  }
 }
+
 
 #closing {
   padding-top: 50px;
