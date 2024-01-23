@@ -36,7 +36,8 @@ main {
 }
 
 section h2 {
-  font-size: 48px;
+  font-size: 60px;
+  font-weight: normal;
   margin-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
@@ -47,7 +48,7 @@ section h2 {
 }
 
 section p {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   line-height: 2;
   color: white;
