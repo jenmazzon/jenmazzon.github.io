@@ -29,7 +29,16 @@ main {
 /* Mobile padding (screen width less than 768px) */
 @media only screen and (max-width: 768px) {
   main {
-    padding-top: 50px;
+    background-color: #020e27;
+    padding-top: 50px; 
+  }
+  .content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #030d25;
+    opacity: 0.9; 
+    position: relative;
+    z-index: 2; /* Ensures image stays behind text */
   }
 }
 
@@ -44,13 +53,6 @@ img {
   opacity: 0.9; 
   position: relative;
   z-index: 2; /* Ensures image stays behind text */
-}
-
-/* Mobile width (screen width less than 768px) */
-@media only screen and (max-width: 768px) {
-  .content {
-    width: 90%;
-  }
 }
 
 section h2 {
