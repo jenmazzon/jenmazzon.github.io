@@ -23,7 +23,14 @@ body {
 
 main {
   background-color: #020e27;
-  padding-top: 20%; 
+  padding-top: 600px; 
+}
+
+/* Mobile padding (screen width less than 768px) */
+@media only screen and (max-width: 768px) {
+  main {
+    padding-top: 50px;
+  }
 }
 
 img {
