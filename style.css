@@ -21,11 +21,6 @@ body {
   z-index: 1; /* Ensures image stays behind text */
 }
 
-main {
-  background-color: #020e27;
-  padding-top: 600px; 
-}
-
 img {
   width: 100%;
 }
@@ -40,6 +35,11 @@ img {
 }
 
 @media only screen and (min-width: 768px) {  /* Target screens wider than 768px */
+  main {
+    background-color: #020e27;
+    padding-top: 600px; 
+  }
+  
   section h2 {
     font-size: 60px;
     font-weight: normal;
@@ -62,7 +62,12 @@ img {
 }
 
 @media only screen and (max-width: 768px) {  /* Target screens 768px or narrower */
-  section h2 {
+    main {
+    background-color: #020e27;
+    padding-top: 50px; 
+  }
+  
+    section h2 {
       font-size: 60px;
       font-weight: normal;
       margin-top: 20px;
