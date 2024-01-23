@@ -80,5 +80,5 @@ img {
   margin: 0 auto;
   position: relative;
   z-index: 2; /* Ensures image stays behind text */
-  opacity: 1;
+  opacity: 1 !important;
 }
