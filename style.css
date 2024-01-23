@@ -77,5 +77,6 @@ img {
 .p4g-mockups {
   padding-top: 200px;
   width: 100%; /* Scales image to be 100% of the viewport width */
-  z-index: 2; /* Ensures image stays behind text */
+  margin: 0 auto;
+  position: relative;z-index: 2; /* Ensures image stays behind text */
 }
