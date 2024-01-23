@@ -74,6 +74,28 @@ img {
   color: #92fe9d; 
 }
 
+button {
+  /* General settings */
+  background-color: #00c9ff; /* Change to your desired color */
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: 'SourceSans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  
+  /* Rounded corners */
+  border-radius: 5px; /* Adjust value for sharper or smoother curves */
+}
+
+/* Optional hover effect */
+button:hover {
+  background-color: #92fe9d;
+}
+
+
 .p4g-mockups {
   padding-top: 400px;
   width: 100%; /* Scales image to be 100% of the viewport width */
