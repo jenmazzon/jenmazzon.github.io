@@ -1,4 +1,10 @@
 @font-face {
+  font-family: 'Afterglow-Regular';
+  src: url('/fonts/Afterglow-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
   font-family: 'SourceSans';
   src: url('/fonts/SourceSans3-Regular.ttf');
   font-weight: normal
@@ -40,7 +46,7 @@ section h2 {
   padding-top: 50px;
   text-align: center;
   color: #00c9ff; 
-  font-family: 'Afterglow-Regular', sans-serif; /* Example custom font */
+  font-family: 'Afterglow-Regular', serif;
 }
 
 section p {
