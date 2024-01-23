@@ -15,7 +15,7 @@ body {
   font-family: 'SourceSans', sans-serif;
 }
 
-.logoimage {
+.hero-image {
   position: fixed; /* Anchors the container to the top */
   width: 100%;
   z-index: 1; /* Ensures image stays behind text */
