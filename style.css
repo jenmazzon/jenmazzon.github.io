@@ -36,7 +36,7 @@ main {
 }
 
 section h2 {
-  font-size: 32px;
+  font-size: 36px;
   margin-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
@@ -49,6 +49,7 @@ section h2 {
 section p {
   font-size: 16px;
   text-align: center;
+  line-height: 1.5;
   color: white;
   font-family: 'SourceSans', sans-serif;
   padding-left: 10%;
