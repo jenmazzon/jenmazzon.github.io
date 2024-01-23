@@ -63,3 +63,7 @@ section p {
 a {
   color: white;
 }
+
+img {
+  width: 100%; /* Scales image to be 100% of the viewport width */
+}
