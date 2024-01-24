@@ -59,6 +59,17 @@ img {
     padding-left: 10%;
     padding-right: 10%;
   }
+
+  
+  .p4g-mockups {
+    padding-top: 500px;
+    width: 100%; /* Scales image to be 100% of the viewport width */
+    margin: 0 auto;
+    position: relative;
+    z-index: 2; /* Ensures image stays behind text */
+    opacity: 1 !important;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {  /* Target screens 768px or narrower */
@@ -84,6 +95,15 @@ img {
       color: white;
       font-family: 'SourceSans', sans-serif;
   }
+
+     .p4g-mockups {
+      padding-top: 200px;
+      width: 100%; /* Scales image to be 100% of the viewport width */
+      margin: 0 auto;
+      position: relative;
+      z-index: 2; /* Ensures image stays behind text */
+      opacity: 1 !important;
+    }
 }
 
 
@@ -120,12 +140,3 @@ button:hover {
   background-color: #92fe9d;
 }
 
-
-.p4g-mockups {
-  padding-top: 500px;
-  width: 100%; /* Scales image to be 100% of the viewport width */
-  margin: 0 auto;
-  position: relative;
-  z-index: 2; /* Ensures image stays behind text */
-  opacity: 1 !important;
-}
