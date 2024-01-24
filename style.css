@@ -121,8 +121,7 @@ a {
 }
 
 button {
-  /* General settings */
-  background-color: #00c9ff; /* Change to your desired color */
+  background-color: #00c9ff; 
   color: #020e27;
   padding: 10px 20px;
   font-family: 'SourceSans', sans-serif;
@@ -130,8 +129,6 @@ button {
   border: none;
   cursor: pointer;
   display: inline-block;
-  
-  /* Rounded corners */
   border-radius: 5px; /* Adjust value for sharper or smoother curves */
 }
 
